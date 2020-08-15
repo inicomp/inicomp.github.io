@@ -1,12 +1,12 @@
 * {
   margin: 0;
   padding: 0; }
-
+ 
 body {
   margin: 0;
   padding: 0;
   font-size: 13px;
-  fon-family: Arial, Helvetica, Sans-serif;
+  font-family: Arial, Helvetica, Sans-serif;
   background-color: #131313; }
 
 a {
@@ -40,20 +40,25 @@ header {
       width: 25px;
       height: 25px; }
 
-section {
-  display: flex;
+section { 
+  
+display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 60px;
-  width: 100%; }
+  width: 100%; 
+ 
+}
   section .flex-item-1 {
+    
     color: white;
     font-family: "Mitr", sans-serif;
     letter-spacing: 8px;
     font-size: 30px;
     text-align: center; }
   section .flex-item-2 {
+    
     color: #424242;
     font-family: "Mitr", sans-serif;
     letter-spacing: 8px;
@@ -62,8 +67,70 @@ section {
     padding-bottom: 100px; }
 
 .content {
+  
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 1em; }
+
+@keyframes slidein {
+  from {
+    opacity: 0%;
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    opacity: 100%;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes aparecer {
+  from {
+    opacity: 0%;
+    margin-top: 100%;
+    
+  }
+
+  to {
+    opacity: 100%;
+    margin-top: 0%;
+    
+  }
+}
+.parallax {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-delay: 100ms;
+  /* The image used */
+  
+
+  /* Set a specific height */
+  min-height: 710px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-delay: 100ms;
+  /* The image used */
+  
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 
 /*# sourceMappingURL=estilos.css.map */
