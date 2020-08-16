@@ -30,11 +30,35 @@ footer .redes-sociales {
 /* ----- ----- MEDIA QUERIES ----- ----- */
 @media screen and (max-width: 800px) {
   header .menu {
-    text-align: center; }
-
+    text-align: center; 
+  }
   .main .trabajos .contenedor-trabajos .trabajo {
     width: 46%; } }
-@media screen and (max-width: 500px) {
+
+
+
+
+
+@media screen and (max-width: 768px) {
+      
+footer .redes-sociales {
+  padding: 5px;}
+      footer .redes-sociales .contenedor a {
+        padding: 10px 0;
+    }
+ footer .redes-sociales .contenedor a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 50px;
+  height: 30px;
+ }
+
+
+
+
+    @media screen and (max-width: 500px) {
   header .contenedor-texto .texto .nombre {
     font-size: 35px; }
   header .contenedor-texto .texto .profesion {
@@ -43,6 +67,13 @@ footer .redes-sociales {
   footer .redes-sociales .contenedor {
     flex-wrap: wrap; }
     footer .redes-sociales .contenedor a {
-      padding: 20px; } }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      height: 30px;
+      width: 30px;
+      padding: 0px; } 
+    }
 
 /*# sourceMappingURL=estilos.css.map */
