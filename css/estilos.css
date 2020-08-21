@@ -58,7 +58,7 @@ display: flex;
   section .flex-item-1 {
     
     color: white;
-    font-family: "Mitr", sans-serif;
+    font-family: 'Megrim', cursive;
     letter-spacing: 8px;
     font-size: 30px;
     align-items: center;
@@ -154,6 +154,9 @@ display: flex;
   }
  .flex-container{
    font-size: 25px;
+ }
+ .flex-item-2{
+   font-size: .3em;
  }
 }
 @media screen and (max-width: 768px) {
