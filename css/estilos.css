@@ -155,7 +155,11 @@ display: flex;
  .flex-container{
    font-size: 25px;
  }
+ .flex-item-1{
+  padding-bottom: 5%;
+}
  .flex-item-2{
+   display: none;
    font-size: .3em;
  }
 }
@@ -181,4 +185,10 @@ display: flex;
 }
  
 @media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 450px) {
+  .menu li{
+    display: none;
+  }
 }
