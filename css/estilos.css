@@ -184,11 +184,9 @@ display: flex;
  }
 }
  
-@media screen and (max-width: 500px) {
-}
 
-@media screen and (max-width: 450px) {
-  .menu li{
+@media screen and (max-width: 500px) {
+  .menu li  {
     display: none;
   }
 }
