@@ -183,9 +183,7 @@ display: flex;
  min-height: 730px; 
  }
 }
- 
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 560px) {
   .menu li  {
     display: none;
   }
