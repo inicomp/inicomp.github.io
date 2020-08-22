@@ -24,8 +24,8 @@ header nav .nav-right-section {
         align-items: center;
 }
 header nav a{
-            margin-right: 10px
-            color: #000000;
+            margin-right: 10px;
+            
 }
 header nav .menu-icon{
         background-image: url('menu.png');
@@ -37,16 +37,24 @@ header nav .menu-icon{
 }
         
   .cards {
-    padding-top: 10%;
+    padding-top: 3%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
-    
+    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
     user-select: none;
+   
+  }
+  .cards2 {
+    padding-top: 0%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+    user-select: none;
+   
   }
   
   .card-cover {
+    
     position: relative;
-    height: 500px;
+    height: 400px;
     cursor: pointer;
   }
   .card-cover__background {
@@ -67,7 +75,7 @@ header nav .menu-icon{
     background-color: rgba(0, 0, 0, 0.45);
     width: 100%;
     height: 100%;
-    transition: background-color 0.5s ease;
+    transition:0.5s ease;
     overflow: hidden;
   }
   .card-cover__body:hover {

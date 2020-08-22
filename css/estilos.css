@@ -157,7 +157,7 @@ display: flex;
     padding-top: 8%;
   }
  .flex-container{
-  -webkit-box-reflect: below -125% -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.3)));
+  -webkit-box-reflect: below -125% -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.2)));
    font-size: 25px;
  }
  .flex-item-1{
@@ -183,7 +183,7 @@ display: flex;
     padding-top: 8%;
   }
  .flex-container{
-  -webkit-box-reflect: below -120% -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.3)));
+  -webkit-box-reflect: below -120% -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.2)));
    font-size: 20px;
  }
  .parallax{
@@ -192,7 +192,7 @@ display: flex;
 }
 @media screen and (max-width: 560px) {
   .flex-container{
-    -webkit-box-reflect: below -100% -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.3)));
+    -webkit-box-reflect: below -100% -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.2)));
      
    }
   .menu li  {
