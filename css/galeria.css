@@ -54,7 +54,7 @@ header nav .menu-icon{
   .card-cover {
     
     position: relative;
-    height: 400px;
+    height: 30em;
     cursor: pointer;
   }
   .card-cover__background {
