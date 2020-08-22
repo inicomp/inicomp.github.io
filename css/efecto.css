@@ -4,7 +4,6 @@
     --transition-duration: 0.3s;
     --transition-delay: 0.2s;
     --red: #e74c3c;
-    background-color: transparent;
   }
  
   
@@ -31,18 +30,15 @@
   
   .menu {
     
-    background-color: transparent;
     display: flex;
     justify-content: center;
   }
   
   .menu li {
-    background-color: transparent;
     margin-right: 70px;
   }
   
   .menu a {
-    background-color: transparent;
     position: relative;
     display: block;
     padding: 10px;

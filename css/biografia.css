@@ -9,9 +9,23 @@ header{
     padding: 1%;
 }
 header nav{
+    
     background-color: transparent;
     display: flex;
     justify-content: flex-end;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+header nav ul li{
+    
+    background-color: transparent;
+}
+header nav ul li a{
+    text-shadow: .5px .5px 2px black; 
+    background-color: transparent;
 }
 article{
     display: block;
@@ -56,6 +70,7 @@ article{
     align-items: center;
   }
   .parallax .cuadro{
+    
       width: auto;
       height: auto;
       background-color: transparent;

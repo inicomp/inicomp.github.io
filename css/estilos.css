@@ -42,6 +42,10 @@ header {
       background-size: contain;
       width: 25px;
       height: 25px; }
+      header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+         }
 
 section { 
   
