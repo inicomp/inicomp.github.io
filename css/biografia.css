@@ -24,15 +24,16 @@ header nav ul li{
     background-color: transparent;
 }
 header nav ul li a{
-    text-shadow: .5px .5px 2px black; 
+    text-shadow: .5px .5px 1px #AEB6BF; 
     background-color: transparent;
+    color: #D0D3D4;
 }
 article{
     display: block;
     align-content: center;
     align-items: center;
     max-height: 25%;
-    background-color: #5D6D7E;
+    
     
 }
 
