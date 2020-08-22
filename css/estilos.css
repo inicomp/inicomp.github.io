@@ -157,9 +157,11 @@ display: flex;
     padding-top: 8%;
   }
  .flex-container{
+  -webkit-box-reflect: below -100px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.3)));
    font-size: 25px;
  }
  .flex-item-1{
+
   padding-bottom: 5%;
 }
  .flex-item-2{
