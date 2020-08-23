@@ -90,3 +90,86 @@ article{
     font-size: 2em;
 }
 
+.content-info{
+    margin-left: auto;
+  margin-right: auto;
+    max-width: 1280px;
+    color: rgba(214, 219, 223, 1);
+    font-size: 100px;
+    padding: 5% 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    flex-direction: row;
+}
+.content-info .descripcion{
+    border-radius: 5px;
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(70, 70, 70, 0.5) 1px,
+        rgba(82, 81, 81, 0.5) 1px,
+        #000 2px,
+        #000 60px
+      );
+    border: 1px solid rgba(214, 219, 223, 1);
+    height: 3em;
+    width: 67.5%;
+}
+.content-info .espacio{
+width: 5%;
+}
+.content-info .perfil{
+    border-radius: 5px;
+    border: 1px solid rgba(214, 219, 223, 1);
+    height: 6em;
+    width: 27.5%;
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(70, 70, 70, 0.5) 1px,
+        rgba(82, 81, 81, 0.5) 1px,
+        #000 2px,
+        #000 60px
+      );
+      display: flex;
+      flex-direction: column;
+      font-family: "Abel", sans-serif;
+}
+.content-info .perfil .rostro{
+    background-color: transparent;
+    height: 50%;
+}
+.content-info .perfil .rostro .cara{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
+    background-image: url(https://source.unsplash.com/random/200*200);
+    height: 2em;
+    width: 2em;
+    }
+.content-info .perfil .resumen{
+    
+    padding: .1em;
+    height: 2.5em;
+    font-size: .2em;
+    margin-left: 10%;
+    }
+.content-info .perfil .resumen .redes{
+    
+    height: 1.2em;
+    position: fixed;
+    bottom: 6em;
+}
+.content-info .perfil .resumen .redes .twitter:hover{
+    color: #55acee; }
+
+.content-info .perfil .resumen .redes .facebook:hover{
+    color: #3b5998; }
+
+.content-info .perfil .resumen .redes .youtube:hover{
+    color: #cd201f; }
+
+.content-info .perfil .resumen .redes .instagram:hover{
+    color: #3f729b; }
+
+
