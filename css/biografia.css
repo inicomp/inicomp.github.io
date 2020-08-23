@@ -37,41 +37,41 @@ article{
     
 }
 
-  @keyframes slidein {
+  @keyframes aparecer {
     from {
       opacity: 0%;
-      margin-bottom: 100%;
-      width: 300%
-    }
+      }
   
     to {
       opacity: 100%;
-      margin-bottom: 0%;
-      width: 100%;
     }
   }
   .parallax {
-    animation-duration: 3s;
-    animation-name: slidein;
+    /*efecto de animacion*/
+    animation-duration: 6s;
+    animation-name: aparecer;
     animation-delay: 100ms;
-    /* The image used */
+    
     
   
-    /* Set a specific height */
+    /* modifica el alto de la imagen */
     min-height: 23em; 
   
-    /* Create the parallax scrolling effect */
+    /* Efecto parallax cuando hace scroll */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
+    /*posicionar texto y cuadro al centro*/
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .parallax .cuadro{
-    -webkit-box-reflect: below -5px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.2)));
+    animation-duration: 7s;
+    animation-name: aparecer;
+    animation-delay: 150ms;
       width: auto;
       height: auto;
       background-color: transparent;
