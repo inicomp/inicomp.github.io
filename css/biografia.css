@@ -69,9 +69,9 @@ article{
     align-items: center;
   }
   .parallax .cuadro{
-    animation-duration: 7s;
+    animation-duration: 4s;
     animation-name: aparecer;
-    animation-delay: 150ms;
+    animation-delay: 0ms;
       width: auto;
       height: auto;
       background-color: transparent;
@@ -91,8 +91,11 @@ article{
 }
 
 .content-info{
+    animation-duration: 20s;
+    animation-name: aparecer;
+    animation-delay: 0ms;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
     max-width: 1280px;
     color: rgba(214, 219, 223, 1);
     font-size: 100px;
@@ -112,9 +115,34 @@ article{
         #000 60px
       );
     border: 1px solid rgba(214, 219, 223, 1);
-    height: 3em;
+    height: auto;
     width: 67.5%;
+    
 }
+.content-info .descripcion .sobremi{
+    background-color: transparent;
+    font-size: .23em;
+    margin-left: 2em;
+    font-family: "Abel", Arial, Helvetica, sans-serif;
+    padding-top: 1.5em;
+    line-height: .8em;
+    margin-right: 2em;
+}
+.content-info .descripcion i{
+    font-size: 2em;
+    
+}
+.content-info .descripcion strong{
+    font-size: 1.1em;
+    
+}
+.content-info .descripcion {
+    font-size: .7em;
+}
+.content-info .descripcion p{
+    line-height: 1.3em;
+}
+
 .content-info .espacio{
 width: 5%;
 }
@@ -148,7 +176,7 @@ width: 5%;
     width: 2em;
     }
 .content-info .perfil .resumen{
-    
+    background-color: transparent;
     padding: .1em;
     height: 2.5em;
     font-size: .2em;
@@ -171,5 +199,4 @@ width: 5%;
 
 .content-info .perfil .resumen .redes .instagram:hover{
     color: #3f729b; }
-
 
