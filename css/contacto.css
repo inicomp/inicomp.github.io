@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+body{
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(41,41,41, 1) 1px,
+        rgba(41,41,41, 1) 1px,
+        #000 2px,
+        #000 60px
+      );
+}
+
+nav {
+    padding: 20px;
+    position: relative;
+    background-color: transparent;
+}
+section{
+    margin-top: 3%;
+    max-height: 90%;
+}
+section .content{
+    padding-top: -4%;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:black ;
+    opacity: 50%;
+    
+}
+
+.row{
+    
+    display: flex;
+    justify-content: center;
+    line-height: 5em;
+    margin-left: 20px;
+}
+.email{
+    width: 50%;
+    font-size: 2em;
+}
+.texto{
+    background-color: transparent;
+    color: cornsilk;
+    text-decoration: none;
+    font-size: .7em;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 25em;
+}
+button{
+    opacity: 100%;
+    color: cornsilk;
+    text-decoration:none;
+    border: none;
+    background-color: rgb(62, 71, 71);
+    width: 8em;
+    height: 4em;
+    margin-bottom: 20%;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: #398197;
+}
+@keyframes aparecer {
+    from {
+      opacity: 0%;
+      }
+  
+    to {
+      opacity: 100%;
+    }
+  }
+  .parallax {
+    /*efecto de animacion*/
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 80ms;
+    
+    
+  
+    /* modifica el alto de la imagen */
+    min-height: 100%; 
+    position: absolute;
+    width: 100%;
+    
+    /* Efecto parallax cuando hace scroll */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    /*posicionar texto y cuadro al centro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .cuadro{
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-delay: 0ms;
+      width: auto;
+      height: auto;
+      background-color: transparent;
+      
+      color:rgba(214, 219, 223, 1);
+      font-family: 'Megrim', cursive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      }
+      .content .cuadro strong{
+    margin-top: 3%;
+    border: 1px solid rgba(214, 219, 223, 1);
+    background-color: transparent;
+    padding: 5px;
+    font-size: 2em;
+}
+    
+
