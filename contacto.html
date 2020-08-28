@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/efecto.css">
-    <link rel="stylesheet" href="css/biografia.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Megrim&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Megrim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contacto.css">
     <script src="https://kit.fontawesome.com/df5f08a129.js" crossorigin="anonymous"></script>
 
 </head>
@@ -15,7 +16,6 @@
     <header>
         <nav>
             <ul class="menu" >
-           
         <li>
           <a href="index.html" >
             INICIO
@@ -46,26 +46,43 @@
             </ul>
         </nav>
     </header>
-    <br><br><br><br><br><br>
+    <article>  
+        <div class="parallax" style="background-image: url(https://source.unsplash.com/random/810*710);">
+       
+        </div>
+            </article>
+<section> 
+    <div class="content">
+        <div class="cuadro"><strong>M</strong></div>
 <div class="row">
    <div id="templatemo_contact" class="col-md-4 gallery-contact">
 </div>
-   <div class="col-md-8 templatemo_contactform">
-   <div class="templatemo_contacttitle">CONTACTO</div>
-    <div class="templatemo_sub_contacttitle">Si requieres un subtitulo escribelo aquí</div>
-        <p> Escribe aquí el mensaje que quieres presentar si es necesario.</p>
+<form
+action="https://formspree.io/mknqloqb"
+method="POST"
+>
+<label class="email">
+    
+  Correo Electronico:<br>
+  <input type="text" name="_replyto" class="texto"><br>
+</label>
+<label class="email">
+  Escribe tu mensaje:<br>
+  <textarea name="message" class="texto"></textarea><br>
+</label>
 
-   <form action="contacto.php" method="post">
-                        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
-                        <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
-                        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
-                        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
-                        <div class="clear"></div>
-                            <div class="col-md-8"> 
-                                <button type="submit" class="btn btn-primary">ENVIAR </button>
-    </div>
-    </form>
-    </div>
+<!-- your other form fields go here -->
 
+<button type="submit">Enviar</button>
+</form>
+</div>
+</div>
+</section>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {action: "https://formspree.io/mknqloqb"})
+
+</script>
 </body>
 </html>
