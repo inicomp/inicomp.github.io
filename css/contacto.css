@@ -146,6 +146,76 @@ button:hover{
     letter-spacing: 1em;
     font-size: 1.5em;
 }
-
+ @media screen and (max-width: 320px) {
   
+.parallax{
+  width: 160%;
+}
+section{
+  width: 125%;
+  }
+.texto{
+    width: 80%;
+}
+  }
+  @media screen and (max-width: 375px) {
+  
+    .parallax{
+      width: 120%;
+    }
+    section{
+      width: 105%;
+      }
+    .texto{
+        width: 80%;
+    }
+    .email{
+        font-size: .3em;
+    }
+      }
+      @media screen and (max-width: 425px) {
+        nav .menu{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .parallax{
+          width: 120%;
+          height: auto;
+        }
+        section{
+          width: 115%;
+          }
+        .texto{
+            width: 80%;
+        }
+        .email{
+            font-size: .7em;
+        }
+          }
+          @media screen and (max-width: 768px) {
+            .row{
+                margin-left: 0;
+            }
+            .parallax{
+              width: 100%;
+              height: auto;
+            }
+            nav .menu{
+                display: flex;
+                justify-content: space-around;
+                align-content: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            section{
+              width: 90%;
+              }
+            .texto{
+                margin: 0;
+                width: 80%;
+            }
+            .email{
+                font-size: 1.5em;
+            }
+              }
 
