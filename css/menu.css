@@ -108,8 +108,13 @@ display:none;
     transform: translateY(3px);
 }
 @media (max-width:769px){
+    section .inicio{
+    margin-top: 1%;
+}
 .cabecera{
 display:block;
+scroll-margin-bottom: 5px;
+padding-bottom: 5px;
 }
 .menu-ancho{
     display: none;
