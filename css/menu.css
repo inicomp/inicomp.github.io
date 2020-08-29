@@ -52,7 +52,7 @@ display:none;
     border-bottom: none;
 }
 .site-nav a{
-    color: #white;
+    color: white;
     display: block;
     padding: 2em 6em;
     text-transform: uppercase;
