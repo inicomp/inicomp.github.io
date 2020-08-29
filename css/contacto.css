@@ -45,7 +45,7 @@ section .content{
 }
 .email{
     width: 50%;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 .texto{
     background-color: transparent;
@@ -147,15 +147,24 @@ button:hover{
     font-size: 1.5em;
 }
  @media screen and (max-width: 320px) {
-  
+  section .content{
+      width: 100%;
+      margin-left: 5%;
+      margin-right: auto;
+  }
 .parallax{
   width: 160%;
 }
-section{
-  width: 125%;
+section .content{
+  width: 100%;
+  margin-left: 5%;
+  margin-right: auto;
   }
 .texto{
     width: 80%;
+}
+.content .email{
+font-size: .7rem;    
 }
   }
   @media screen and (max-width: 375px) {
@@ -163,14 +172,16 @@ section{
     .parallax{
       width: 120%;
     }
-    section{
-      width: 105%;
-      }
+    section .content{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: auto;
+        }
     .texto{
         width: 80%;
     }
-    .email{
-        font-size: .3em;
+    .content .email{
+        font-size: 1.5em;
     }
       }
       @media screen and (max-width: 425px) {
@@ -182,8 +193,10 @@ section{
           width: 120%;
           height: auto;
         }
-        section{
-          width: 115%;
+        section .content{
+          width: 100%;
+          margin-left: 5%;
+        margin-right: auto;
           }
         .texto{
             width: 80%;
@@ -207,11 +220,12 @@ section{
                 margin-left: auto;
                 margin-right: auto;
             }
-            section{
-              width: 90%;
-              }
+            section .content{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                }
             .texto{
-                margin: 0;
                 width: 80%;
             }
             .email{
