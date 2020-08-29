@@ -206,6 +206,9 @@ font-size: .7rem;
         }
           }
           @media screen and (max-width: 768px) {
+            .menu-ancho{
+                display: none;
+            }
             .row{
                 margin-left: 0;
             }
