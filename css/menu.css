@@ -121,7 +121,10 @@ padding-bottom: 5px;
 }
 }
 @media (min-width:769px){
-
+header{
+    position: absolute;
+    height: 1%;
+}
   .menu-toggle{
       display: none;
   } 
