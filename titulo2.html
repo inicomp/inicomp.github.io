@@ -12,10 +12,28 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/efecto.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 
 <body>
-    <header><nav>
+    <header class='cabecera' style="z-index: 2;">
+        <div class="contenido">
+            <h1 class="logo">Mauricio <span>Lavat</span></h1>
+        </div>
+        <nav id="site-nav" class="site-nav">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home site-nav--icon"></i>Inicio</a></li>
+                <li><a href="proyectos.html"><i class="fa fa-info site-nav--icon"></i>Proyectos</a></li>
+                <li><a href="biografia.html"><i class="fa fa-pencil-alt site-nav--icon"></i> <b> Biografía</b></a></li>
+                <li><a href="contacto.html"><i class="fa fa-pencil-alt site-nav--icon"></i> <b> Contacto</b></a></li>
+               
+            </ul>
+        </nav>
+        <div id="menu-toggle" class="menu-toggle" onClick="cambiarClase()">
+            <div class="hamburger"></div>
+        </div>
+    </header>
+    <header class="menu-ancho"><nav>
         <ul class="menu">
             <li>
               <a href="index.html">
@@ -112,6 +130,7 @@
 			</div>
 		</section>
     </footer>
+    <script src="js/menu.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>

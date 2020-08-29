@@ -111,6 +111,9 @@ display:none;
 .cabecera{
 display:block;
 }
+.menu-ancho{
+    display: none;
+}
 }
 @media (min-width:769px){
 
@@ -129,18 +132,22 @@ display:block;
   .site-nav li{
       display: inline-block;
       border: none;
+      background: transparent;
   }
 
   .site-nav a{
       padding: 0;
       margin-left: 3em;
+      background: transparent;
   }
   .site-nav--icon{
       display: none;
+      background: transparent;
   }
   .site-nav a:hover,
   .site-nav a:focus{
       background: transparent;
   }
+
 
 }
