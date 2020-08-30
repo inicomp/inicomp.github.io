@@ -11,14 +11,14 @@ body{
         #000 60px
       );
 }
-
 nav {
     padding: 20px;
     position: relative;
     background-color: transparent;
 }
 section{
-    margin-top: 3%;
+  padding-top: 3%;
+    margin-top: 4%;
     width: 100%;
 }
 section .content{
@@ -33,7 +33,11 @@ section .content{
     opacity: 50%;
     
 }
-
+.menu-ancho{
+  margin-top: -60px;
+  margin-left: auto;  
+  margin-right: auto;
+}
 .row{
     
     display: flex;
@@ -235,4 +239,17 @@ font-size: .7rem;
                 font-size: 1.5em;
             }
               }
-
+              @media screen and (max-width: 1024px) {
+                .menu-ancho{
+                  margin-top: -3.5em;
+                  margin-left: auto;  
+                  margin-right: auto;
+                }
+                  }
+                  @media screen and (min-width: 1280px) {
+                    .menu-ancho{
+                      margin-top: -4%;
+                      margin-left: auto;  
+                      margin-right: auto;
+                    }
+                      }

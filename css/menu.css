@@ -60,7 +60,7 @@ display:none;
 }
 .site-nav a:hover,
 .site-nav a:focus{
-    background: #e4b363;
+    background: rgba(#ffff,#ffff,#fff,.65);
     color: #464655;
 }
 
