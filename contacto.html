@@ -37,7 +37,7 @@
         </div>
     </header>
 
-    <header class="menu-ancho">
+    <header class="menu-ancho" style="z-index: 3;">
         <nav>
             <ul class="menu" >
         <li>
@@ -71,11 +71,11 @@
         </nav>
     </header>
     <article>  
-        <div class="parallax" style="background-image: url(https://source.unsplash.com/random/280*570);">
+        <div class="parallax" style="background-image: url(https://source.unsplash.com/random/280*570);position: fixed;">
        
         </div>
     </article>
-    <section style="z-index: 1;"> 
+    <section style="z-index: 1;margin-bottom: 5%;"> 
     <div class="content">
         <div class="cuadro"><strong>M</strong></div>
 <div class="row">
@@ -86,10 +86,15 @@ action="https://formspree.io/mknqloqb"
 method="POST"
 >
 <label class="email">
-    
+Nombre:<br>
+<input type="text" name="name" class="texto"><br>
+</label>
+
+<label class="email">
   Correo Electronico:<br>
   <input type="text" name="_replyto" class="texto"><br>
 </label>
+
 <label class="email">
   Escribe tu mensaje:<br>
   <textarea name="message" class="texto"></textarea><br>
@@ -106,8 +111,9 @@ method="POST"
     <a class="youtube" href="https://www.youtube.com/channel/UCPHb217kY7DY6aJ1k6kOFoQ"><i class="fa fa-youtube-play"> </i></a>
     <a class="instagram" href="http://www.instagram.com/inicompmx"><i class="fa fa-instagram"> </i></a>
 </div>
+
 </div>
-</section>
+    </section>
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script src="js/menu.js"></script>
 </body>
