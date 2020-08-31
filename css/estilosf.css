@@ -5,6 +5,7 @@ footer .redes-sociales {
   background: #1b1b1b;
   padding: 10px 0; }
   footer .redes-sociales .contenedor {
+    margin-top: -3%;
     display: flex;
     justify-content: center; }
     footer .redes-sociales .contenedor a {
@@ -54,7 +55,7 @@ footer .redes-sociales {
   width: 50px;
   height: 30px;
  }
-
+}
 
 
 
@@ -76,4 +77,4 @@ footer .redes-sociales {
       padding: 0px; } 
     }
 
-/*# sourceMappingURL=estilos.css.map */
+
