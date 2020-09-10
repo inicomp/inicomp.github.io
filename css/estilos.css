@@ -58,11 +58,18 @@ display: flex;
 
  
 }
-
+section .flex-item-0 {
+    
+  color: white;
+  font-family: 'Megrim', cursive;
+  letter-spacing: 8px;
+  font-size: 30px;
+  align-items: center;
+  text-align: center; }
   section .flex-item-1 {
     
     color: white;
-    font-family: 'Megrim', cursive;
+    font-family: 'Roboto', cursive;
     letter-spacing: 8px;
     font-size: 30px;
     align-items: center;

@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 .contenido{
     width: 95%;
     max-width: 1000px;
@@ -25,6 +27,7 @@ display:none;
     margin: 0;
     text-transform: uppercase;
     font-weight: 700;
+    font-family: 'Megrim',Arial, Helvetica, sans-serif;
 }
 .logo span{
     font-weight: 300;

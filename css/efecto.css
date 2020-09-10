@@ -153,5 +153,15 @@
       margin-top: -30px;
       margin-bottom: 5px;;
     }
+    .menu-ancho-bio{
+      
+      margin-bottom: 5px;;
+    }
+   
+  }
+  @media screen and (max-width: 770px) {
+    .menu-ancho-bio{
+    display: none;
+    }
   }
  
