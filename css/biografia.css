@@ -1,7 +1,11 @@
 *{
+    
     margin: 0px;
     padding: 0px;
     background-color: black;
+}
+body{
+    min-width: 300px;
 }
 header{
     position: fixed;
@@ -90,6 +94,7 @@ article{
 }
 
 .content-info{
+    
     animation-duration: 20s;
     animation-name: aparecer;
     animation-delay: 0ms;
@@ -171,6 +176,10 @@ width: 5%;
     margin-right: auto;
     border-radius: 2em;
     background-image: url('../images/perfil.jpg');
+    background-repeat: no-repeat;
+    background-size: 2.0em;
+    background-position: center;
+    background-position-y: center;
     height: 2em;
     width: 2em;
     }
@@ -185,6 +194,11 @@ width: 5%;
     
     height: 1.2em;
     
+    
+}
+.content-info .perfil .resumen .redes a{
+    padding: 7px;
+    padding-left: 0;
     
 }
 .content-info .perfil .resumen .redes .mail:hover{

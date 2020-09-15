@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;  
+    box-sizing: border-box;
 }
 body{
     background: repeating-linear-gradient(
@@ -45,11 +46,21 @@ section .content{
     line-height: 5em;
     margin-left: 20px;
     align-content: center;
+    font-size: .8em;
     
 }
+.row form{
+  width: 80%;
+  margin-left: 10%;
+  max-width: 1024px;
+}
 .email{
-    width: 50%;
+    
     font-size: 1.8em;
+}
+.row form label input , .row form label textarea{
+  
+  width: 100%;
 }
 .texto{
     background-color: transparent;
@@ -149,6 +160,7 @@ button:hover{
     padding: 20px;
     letter-spacing: 1em;
     font-size: 1.5em;
+    margin-top: -10%;
 }
  @media screen and (max-width: 320px) {
   section .content{
@@ -214,7 +226,20 @@ font-size: .7rem;
                 display: none;
             }
             .row{
-                margin-left: 0;
+              width: 100%;
+            }
+            .row form{
+                font-size: .8em;
+                width: 100%;
+            }
+            .row form label{
+                width: 100%;
+            }
+            .row form label input , .row form label textarea{
+              border-radius: 0px;
+              border-top-color: transparent;
+              border-left-color: transparent;
+              border-right-color: transparent;
             }
             .parallax{
               width: 100%;

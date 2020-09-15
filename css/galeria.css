@@ -85,3 +85,22 @@ header nav .menu-icon{
   .card-cover__body:hover > img {
     transform: scale(1.3);
   }
+  @media screen and (max-width: 768px) {
+    .contenedor{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 20px;
+      min-width: 300px;
+    }
+  .container-fluid{
+    width: 90%;
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .container-fluid a{
+    width: 100%;
+  }
+
+  } 
