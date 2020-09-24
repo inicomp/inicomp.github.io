@@ -40,6 +40,62 @@ article{
     width: 100%;
 }
 
+ .row{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 5em;
+    align-content: center;
+    font-size: .8em;
+}
+.row form{
+    
+    background-color: transparent;
+    width: 80%;
+  
+}
+
+
+.row form .email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.row form .email .texto{
+    
+    background-color: transparent;
+    color: cornsilk;
+    text-decoration: none;
+    font-size: .7em;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 75%;
+    
+}
+button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+    color: cornsilk;
+    text-decoration:none;
+    border: none;
+    background-color: rgb(62, 71, 71);
+    width: 8em;
+    height: 4em;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: #398197;
+}
+
   @keyframes aparecer {
     from {
       opacity: 0%;
@@ -58,7 +114,7 @@ article{
     
   
     /* modifica el alto de la imagen */
-    min-height: 23em; 
+    min-height: 30em; 
   
     /* Efecto parallax cuando hace scroll */
     
@@ -70,6 +126,7 @@ article{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -10%;
   }
   .parallax .cuadro{
     animation-duration: 4s;
@@ -90,8 +147,7 @@ article{
     
     background-color: transparent;
     padding: 5px;
-    font-size: 2em;
-}
+    font-size: 2em;}
 
 .content-info{
     
@@ -144,8 +200,7 @@ article{
     font-size: .7em;
 }
 .content-info .descripcion p{
-    line-height: 1.3em;
-}
+    line-height: 1.3em;}
 
 .content-info .espacio{
 width: 5%;
@@ -193,12 +248,13 @@ width: 5%;
 .content-info .perfil .resumen .redes{
     
     height: 1.2em;
-    
+    color: white;
     
 }
 .content-info .perfil .resumen .redes a{
     padding: 7px;
     padding-left: 0;
+    color: white;
     
 }
 .content-info .perfil .resumen .redes .mail:hover{
@@ -212,8 +268,18 @@ width: 5%;
 
 .content-info .perfil .resumen .redes .instagram:hover{
     color: #3f729b; }
+.menu-ancho-bio{
+    position: relative;
+    background-color: transparent;
+}
+@media (min-width:1441px){
+    
+    .parallax {min-height: 40em;  margin-top: -7%;}
+}
 
     @media (max-width:945px){
+
+      
         .menu-ancho{
             display:none;
         }
@@ -231,11 +297,11 @@ width: 5%;
     }
     .sobremi{
         background-color: transparent;
-        width: 90%;
+        
         margin-bottom: 5%;
     }
-    .sobremi p{
-        width: 90%;
+    .sobremi .row{
+        width: .9em;
     }
     
     .content-info  .perfil{
@@ -265,4 +331,47 @@ margin-top: 5%;
 .content-info .espacio{
 display:none;
 }
+.sobremi .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    width: 100%;
+    
+}
+.sobremi .row form{
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row form .email{
+    
+    width: 100%;
+}
+    }
+    @media (max-width:550px){
+        .form{
+            width: 100%;
+        }
+        .email{
+            width: 100%;
+        }
+        .row form .email .texto{
+    width: 100%;
+}
+.sobremi .row .form .button{
+    width: 100%;
+}
+    }
+    @media (max-width:440px){
+        .sobremi row{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+       
     }

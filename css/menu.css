@@ -1,14 +1,23 @@
+
 *{
+    --main-bg-color:  -webkit-gradient(left top, right top, color-stop(0%, rgba(240,240,240,1)), color-stop(62%, rgba(240,240,240,0.88)), color-stop(100%, rgba(255,255,255,0.8)));;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    min-width: 300px;
 }
 .contenido{
     width: 95%;
+    
     max-width: 1000px;
     margin: 0 auto;
 
 }
 .cabecera{
-    font-family: "abel";
+    font-family: "Staatliches";
     background: transparent;
     color: white;
     padding: 1em 0;
@@ -25,11 +34,13 @@ display:none;
     float: left;
     font-size: 1rem;
     margin: 0;
+    margin-left: 2%;
     text-transform: uppercase;
-    font-weight: 700;
-    font-family: 'Megrim',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-family: 'Teko',Arial, Helvetica, sans-serif;
 }
 .logo span{
+    font-size: .9em;
     font-weight: 300;
 }
 .site-nav{
@@ -45,11 +56,15 @@ display:none;
     clip-path: circle(150% at top right);
 }
 .site-nav ul{
+    width: 100%;
     margin: 0;
     padding: 0;
     list-style: none;
+    justify-content: center;
 }
 .site-nav li{
+    width: 75%;
+    border-width: 100%;
     border-bottom: 1px solid #575766;
 }
 .site-nav li:last-child{
@@ -148,6 +163,7 @@ header{
   }
 
   .site-nav a{
+      font-weight: 300;
       padding: 0;
       margin-left: 3em;
       background: transparent;
