@@ -1,5 +1,5 @@
 *{
-    
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     background-color: black;
@@ -354,6 +354,9 @@ display:none;
 }
     }
     @media (max-width:550px){
+        .content-info .descripcion{
+            width: 100%;
+        }
         .form{
             width: 100%;
         }
@@ -362,12 +365,26 @@ display:none;
         }
         .row form .email .texto{
     width: 100%;
+    border-radius: 0px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
 }
+
 .sobremi .row .form .button{
     width: 100%;
+
 }
     }
     @media (max-width:440px){
+        .content-info{
+            width: 100%;
+        }
+        .content-info .descripcion{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
         .sobremi row{
             margin: 0;
             padding: 0;
