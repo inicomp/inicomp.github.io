@@ -22,18 +22,65 @@ section{
     margin-top: 4%;
     width: 100%;
 }
+section{
+  display: flex;
+  justify-content: center;
+}
 section .content{
-    padding-top: -4%;
-    width: 80%;
+
+  margin: 20px;
+  margin-left: 0;
+  min-width: 300px;
+  width: 60%;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color:black ;
+  opacity: 50%;
+  }
+section .perfil{
+  min-width: 300px;
+  letter-spacing: .1em;
+    margin: 20px;
+    width: 20%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid white;
     border-radius: 5px;
-    background-color:black ;
-    opacity: 50%;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 99%;
     
+    }
+.perfil .rostro{
+  
+  background-color: transparent;
+  height: 50%;
+  
+  justify-content: center;
+  align-items: center;
+  
+  
 }
+.perfil .rostro .cara{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+ width: 15em;
+ height: 15em;
+  background-image: url('../images/perfil.jpg');
+  background-repeat: no-repeat;
+  border-radius: 10em;
+    background-position: center;
+    background-position-y: center;
+    background-size: 15em;
+  }
+
+  .perfil .resumen{
+      
+      padding: 1em;
+      width: 90%;
+      font-size: 1.2em;
+      margin-left: 10%;
+      }
 .menu-ancho{
   margin-top: -60px;
   margin-left: auto;  
@@ -89,6 +136,39 @@ button{
 button:hover{
     background-color: #398197;
 }
+/* .perfil{
+  border-radius: 5px;
+  border: 1px solid rgba(214, 219, 223, 1);
+  height: 6em;
+  width: 27.5%;
+  background: repeating-linear-gradient(
+      45deg,
+      rgba(70, 70, 70, 0.5) 1px,
+      rgba(82, 81, 81, 0.5) 1px,
+      #000 2px,
+      #000 60px
+    );
+    display: flex;
+    flex-direction: column;
+    font-family: "Abel", sans-serif;
+} */
+
+ 
+    .perfil .resumen .redes{
+    
+      height: 1.2em;
+      color: white;
+      
+  }
+  .perfil .resumen .redes a{
+    padding: 7px;
+    padding-left: 0;
+    color: white;
+    
+}
+  
+
+
 @keyframes aparecer {
     from {
       opacity: 0%;
@@ -144,24 +224,31 @@ button:hover{
     padding: 5px;
     font-size: 2em;
 }
- .redes .twitter:hover{
-    color: #55acee; }
 
- .redes .facebook:hover{
+
+ .redes .facebook:hover , .perfil .resumen .redes .facebook:hover {
     color: #3b5998; }
 
- .redes .youtube:hover{
+ .perfil .redes .youtube:hover{
     color: #cd201f; }
 
- .redes .instagram:hover{
+ .perfil .redes .instagram:hover{
     color: #3f729b; }
+  .perfil .resumen .redes .spotify:hover{
+      color: #1db954; }
+  
+  .perfil .resumen .redes .instagram:hover{
+      color: #3f729b; }    
+  .perfil .resumen .redes .mail:hover{
+        color: #ff5930; }
 .redes{
     display: flex;
-    justify-content: flex-end;
-    padding: 20px;
+    align-content: flex-end;
+    padding: 10px;
     letter-spacing: 1em;
-    font-size: 1.5em;
-    margin-top: -10%;
+    font-size: 1.2em;
+    
+    
 }
  @media screen and (max-width: 320px) {
   section .content{
@@ -221,6 +308,24 @@ font-size: .7rem;
         .email{
             font-size: .7em;
         }
+          }
+          @media screen and (max-width: 650px) {
+          section{
+            display: flex;
+            flex-wrap: wrap;
+          }
+          section .perfil{
+            width: 90%;
+          }
+          section .perfil .resumen{
+            margin-bottom: 18%;
+            margin-top: 1%;
+          }
+          .redes{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10%;
+          }
           }
           @media screen and (max-width: 768px) {
             
