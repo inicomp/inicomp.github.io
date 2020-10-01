@@ -131,20 +131,76 @@
 			</div>
 		</div>
 	</a>
-	<a href="titulo6.html">
+	<!-- <a href="titulo6.html"> -->
+		<a href="#card3" id="mas">
 		<div class="card-cover">
 			<div class="card-cover__body">
 				<img class="card-cover__background" src="images/proyectos/uk/portada.jpg" srcset="images/proyectos/uk/portada-l.jpg 350w" sizes="(max-width: 500px) 300px" alt="REVISAR IMAGEN">
-				<h2>
-					UK
+				 <h2>
+					MAS...
 				</h2>
 				
 			</div>
 		</div>
 	</a>
 	</div>
+	<div class="cards3 container-fluid" id="card3">
+		<a href="titulo6.html">
+			<div class="card-cover">
+				<div class="card-cover__body">
+					<img class="card-cover__background" src="images/proyectos/uk/portada.jpg" srcset="images/proyectos/uk/portada-l.jpg 350w" sizes="(max-width: 500px) 300px" alt="REVISAR IMAGEN">
+					<h2>
+						UK
+					</h2>
+					
+				</div>
+			</div>
+		</a>
+		
+
+	<a href="titulo8.html">
+		<div class="card-cover">
+			
+				<div class="card-cover__body">
+					<img class="card-cover__background" src="images/proyectos/procesion/portada.jpg" srcset="images/proyectos/procesion/portada.jpg 350w" sizes="(max-width: 500px) 300px" alt="REVISAR IMAGEN">
+				<h2>
+					Procesión.
+				</h2>
+				
+			</div>
+		</div>
+	</a>
+	<a href="titulo7.html"> 
+		<div class="card-cover">
+		<div class="card-cover__body ">
+		<img class="card-cover__background" src="./images/proyectos/gsc/portada.jpg" alt="Imagenes de charreadas">
+			<h2>
+				Golden Shower Cal..
+			</h2>
+			
+		</div>
+	</div>
+</a>
+	</div>
 	</section>
 	<script src="js/menu.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+type="text/javascript" charset="utf-8"></script>
+	<script>
+		$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+            $('html,body').animate({
+                scrollTop: target.offset().top-$('#header').height()
+            }, 1000);
+            return false;
+        }
+    }
+});
+
+	</script>
 </body>
 
 </html>

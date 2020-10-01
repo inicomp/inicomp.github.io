@@ -170,6 +170,11 @@
     .menu-ancho-bio{
     display: none;
     }
-    
+    #mas{
+      display: none;
+    }
+    #card3{
+      margin-top: 0;
+    }
   }
  
